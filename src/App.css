@@ -1,12 +1,21 @@
 .App {
   text-align: center;
+  
+}
+body {
+  margin: 0;
+  background-color: #27bce9;
+  flex-direction: row;
+    max-width: 1280px;
+    color: #212121;
+  background-image: url(https://images.unsplash.com/photo-1577221084712-45b0445d2b00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
 
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
